@@ -1,8 +1,8 @@
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 const Description = ({ children, className, ...props }) => {
   return (
-    <h2 className={cn('text-4xl tracking-wider mb-2', className)} {...props}>
+    <h2 className={cn("mb-2 text-4xl tracking-wider", className)} {...props}>
       {children}
     </h2>
   );
