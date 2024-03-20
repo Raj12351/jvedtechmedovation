@@ -1,11 +1,10 @@
+import { Logo } from "@/components";
+
 const Footer = () => {
   return (
-    <footer className="bg-primary py-4">
-      <div className="container mx-auto flex justify-around items-center">
-        <a href="#" className="text-white text-xl font-semibold">
-          JVEd
-          <sub>Tech Medovation</sub>
-        </a>
+    <footer className="bg-brand mt-12 pb-4 pt-8">
+      <div className="container mx-auto flex items-center justify-around">
+        <Logo />
         {/* Navigation Links */}
         <ul className="flex flex-col gap-3">
           <li>
@@ -28,8 +27,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <hr className="container divide-slate-100 my-4" />
-      <p className="container text-white text-sm">
+      <hr className="container mb-4 mt-8 divide-slate-100" />
+      <p className="container text-sm text-white">
         © 2024 JVEd Tech Medovation. All rights reserved.
       </p>
     </footer>

@@ -2,36 +2,13 @@
 // import { MdOutlineSearch as SearchIcon } from 'react-icons/md';
 // import { Input } from '@/components/ui/input';
 
+import { Logo } from "@/components";
+
 const Navbar = () => {
-  // const [isSearchOpen, setSearchOpen] = React.useState(false);
-  // const searchRef = React.useRef(null);
-
-  // const toggleSearch = () => {
-  //   setSearchOpen(!isSearchOpen);
-  // };
-
-  // React.useEffect(() => {
-  //   const handleClickOutside = (event) => {
-  //     if (searchRef.current && !searchRef.current.contains(event.target)) {
-  //       setSearchOpen(false);
-  //     }
-  //   };
-
-  //   document.addEventListener('mousedown', handleClickOutside);
-
-  //   return () => {
-  //     document.removeEventListener('mousedown', handleClickOutside);
-  //   };
-  // }, []);
-
   return (
-    <nav className="bg-primary py-4 sticky top-0 z-40">
+    <nav className="bg-brand sticky top-0 z-40 py-4">
       <div className="container mx-auto flex items-center">
-        {/* Logo */}
-        <a href="#" className="text-white text-xl font-semibold">
-          JVED
-          <sub>Tech Medovation</sub>
-        </a>
+        <Logo />
 
         {/* Navigation Links */}
         <ul className="ml-auto mr-6 flex space-x-6">
