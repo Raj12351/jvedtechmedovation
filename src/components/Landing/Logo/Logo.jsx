@@ -2,7 +2,7 @@ const Logo = () => {
   return (
     <a href="#" className="text-xl font-semibold text-white">
       JVEd
-      <sub>Tech Medovation</sub>
+      <sub className="hidden md:inline">Tech Medovation</sub>
     </a>
   );
 };

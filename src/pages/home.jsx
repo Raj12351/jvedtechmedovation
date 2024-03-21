@@ -10,7 +10,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <Hero />
-      <main className="container my-6 flex flex-col gap-6">
+      <main className="container my-2 flex flex-col gap-2 md:my-6 md:gap-6">
         <Patients />
         <HealthcareProfessionals />
         <Hospitals />
