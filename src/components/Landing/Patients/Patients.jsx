@@ -9,10 +9,10 @@ import {
 const Patients = () => {
   return (
     <section
-      className="grid min-h-[480px] grid-cols-2 items-center"
+      className="grid min-h-[480px] grid-cols-1 items-center md:grid-cols-2"
       id="patients"
     >
-      <div className="flex flex-col items-start gap-2 pr-12">
+      <div className="order-2 -mt-16 flex flex-col items-start gap-2 pr-0 md:order-1 md:mt-0 md:pr-12">
         <Eyebrow>Patients</Eyebrow>
         <Description>
           We are dedicated to improving the lives of patients fighting
@@ -23,7 +23,7 @@ const Patients = () => {
           <IoArrowForwardSharp size={24} />
         </Button> */}
       </div>
-      <div>
+      <div className="order-1 md:order-2">
         <img src="patients.png" />
       </div>
     </section>
